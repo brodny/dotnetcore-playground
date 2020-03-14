@@ -1,4 +1,5 @@
 ﻿using System;
+using SampleLibrary;
 
 namespace SampleApp
 {
@@ -6,7 +7,13 @@ namespace SampleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            const string myName = "Lukasz";
+
+            GreetingGenerator generator = new GreetingGenerator();
+
+            string greeting = generator.GenerateGreeting(myName);
+
+            Console.WriteLine(greeting);
         }
     }
 }
