@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp\Samp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleLibrary", "SampleLibrary\SampleLibrary.csproj", "{3907031B-96D7-4B24-9914-4F31671D29ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleLibrary.Tests", "SampleLibrary.Tests\SampleLibrary.Tests.csproj", "{A6084B2A-49E7-4413-A011-2219259E1818}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{3907031B-96D7-4B24-9914-4F31671D29ED}.Release|x64.Build.0 = Release|Any CPU
 		{3907031B-96D7-4B24-9914-4F31671D29ED}.Release|x86.ActiveCfg = Release|Any CPU
 		{3907031B-96D7-4B24-9914-4F31671D29ED}.Release|x86.Build.0 = Release|Any CPU
+		{A6084B2A-49E7-4413-A011-2219259E1818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6084B2A-49E7-4413-A011-2219259E1818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6084B2A-49E7-4413-A011-2219259E1818}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A6084B2A-49E7-4413-A011-2219259E1818}.Debug|x64.Build.0 = Debug|Any CPU
+		{A6084B2A-49E7-4413-A011-2219259E1818}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A6084B2A-49E7-4413-A011-2219259E1818}.Debug|x86.Build.0 = Debug|Any CPU
+		{A6084B2A-49E7-4413-A011-2219259E1818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6084B2A-49E7-4413-A011-2219259E1818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6084B2A-49E7-4413-A011-2219259E1818}.Release|x64.ActiveCfg = Release|Any CPU
+		{A6084B2A-49E7-4413-A011-2219259E1818}.Release|x64.Build.0 = Release|Any CPU
+		{A6084B2A-49E7-4413-A011-2219259E1818}.Release|x86.ActiveCfg = Release|Any CPU
+		{A6084B2A-49E7-4413-A011-2219259E1818}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
