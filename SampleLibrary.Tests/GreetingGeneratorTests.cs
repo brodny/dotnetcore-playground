@@ -1,13 +1,30 @@
+using System;
 using NUnit.Framework;
 
 namespace SampleLibrary.Tests
 {
     public class GreetingGeneratorTests
     {
-        [Test]
-        public void Test1()
+        private GreetingGenerator greetingGenerator;
+
+        [SetUp]
+        public void Setup()
         {
-            Assert.Pass();
+            greetingGenerator = new GreetingGenerator();
+        }
+
+        [Test]
+        public void ReturnsGivenNameInGreeting()
+        {
+            string greeting = greetingGenerator.GenerateGreeting("John");
+
+            Assert.AreEqual("Hello, John!", greeting);
+        }
+
+        [Test]
+        public void ThrowsForNullName()
+        {
+            Assert.Throws<ArgumentNullException>(() => greetingGenerator.GenerateGreeting(null));
         }
     }
 }
